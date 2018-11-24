@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">GenEd</string>
     <string name="title_activity_subject_detail">SubjectDetailActivity</string>
+    <string name="link"><a href="http://www.google.com">Developed by Google</a>  </string>
 </resources>
