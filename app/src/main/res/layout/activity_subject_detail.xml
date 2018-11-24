@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySubjectDetail">
+
+    <TextView
+        android:id="@+id/textViewSubjectDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject title"
+        android:textAlignment="center"
+        android:padding="@dimen/fab_margin"
+        android:textSize="12pt"/>
+
+    <TextView
+        android:id="@+id/textViewSubjectDetailAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Author"
+        android:textAlignment="center"
+        android:textSize="6pt"
+        android:layout_below="@+id/textViewSubjectDetailTitle"
+        />
+
+    <TextView
+        android:id="@+id/textViewSubjectDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Details Here"
+        android:gravity="center_horizontal|left"
+        android:verticalScrollbarPosition="right"
+        android:scrollbars="vertical"
+        android:layout_marginTop="32px"
+        android:textSize="8pt"
+        android:layout_below="@+id/textViewSubjectDetailAuthor"
+        android:padding="@dimen/fab_margin"/>
+
+    <TextView
+        android:id="@+id/textViewSubjectDetailLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSubjectDetail"
+        android:autoLink="web"
+        android:text="https://google.com"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
