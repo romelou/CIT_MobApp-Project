@@ -13,6 +13,7 @@
         android:text="Subject title"
         android:textAlignment="center"
         android:padding="@dimen/fab_margin"
+        android:layout_marginTop="32dp"
         android:textSize="12pt"/>
 
     <TextView
@@ -38,12 +39,20 @@
         android:layout_below="@+id/textViewSubjectDetailAuthor"
         android:padding="@dimen/fab_margin"/>
 
-    <TextView
-        android:id="@+id/textViewSubjectDetailLink"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewSubjectDetail"
-        android:autoLink="web"
-        android:text="https://google.com"
-        android:layout_alignParentBottom="true"/>
+        android:layout_marginBottom="12dp"
+        android:padding="12px">
+
+        <TextView
+            android:id="@+id/textViewSubjectDetailLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSubjectDetail"
+            android:autoLink="web"
+            android:layout_marginBottom="12dp"
+            android:text="https://google.com"/>
+
+    </LinearLayout>
 </RelativeLayout>
