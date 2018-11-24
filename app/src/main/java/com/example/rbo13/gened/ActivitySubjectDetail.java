@@ -3,6 +3,8 @@ package com.example.rbo13.gened;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
@@ -20,7 +22,7 @@ public class ActivitySubjectDetail extends AppCompatActivity {
         detail = findViewById(R.id.textViewSubjectDetail);
         link = findViewById(R.id.textViewSubjectDetailLink);
         detail.setMovementMethod(new ScrollingMovementMethod());
-        link.setLinksClickable(true);
+        link.setMovementMethod(LinkMovementMethod.getInstance());
 
         Intent intent = getIntent();
         String subjectTitle = intent.getStringExtra("subjectDetailTitle");
@@ -31,6 +33,12 @@ public class ActivitySubjectDetail extends AppCompatActivity {
         title.setText(subjectTitle);
         author.setText(subjectAuthor);
         detail.setText((subjectDetail));
-        link.setText(subjectDetailLink);
+
+        if (subjectDetailLink.equals("")) {
+            link.setText("No reference link provided");
+        } else {
+            link.setText(subjectDetailLink);
+        }
+
     }
 }
