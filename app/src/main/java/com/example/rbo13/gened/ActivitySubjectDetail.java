@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
@@ -34,7 +34,6 @@ public class ActivitySubjectDetail extends AppCompatActivity {
         presidentList = new ArrayList<>();
 
         listView = findViewById(R.id.listView);
-        scrollView = findViewById(R.id.scrollViewDetailContainer);
         relativeLayout = findViewById(R.id.relativeParentContainer);
 
         title = findViewById(R.id.txtSubject);
@@ -43,8 +42,9 @@ public class ActivitySubjectDetail extends AppCompatActivity {
         link = findViewById(R.id.txtRefLink);
 
         information = findViewById(R.id.information);
-
+        detail.setMovementMethod(new ScrollingMovementMethod());
         link.setMovementMethod(LinkMovementMethod.getInstance());
+
 
 
         Intent intent = getIntent();
@@ -62,6 +62,9 @@ public class ActivitySubjectDetail extends AppCompatActivity {
         if ( hasInfo ) {
             information.setVisibility(View.VISIBLE);
 //            scrollView.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, 250));
+//            detail.setLayoutParams(new RelativeLayout.LayoutParams());
+//            detail.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT), 250);
+
 
             //adding some values to our list
             presidentList.add(new President(R.drawable.aguinaldo, "Emilio Aguinaldo", "(1899 - 1901)"));

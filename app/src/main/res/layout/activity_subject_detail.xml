@@ -39,27 +39,38 @@
         android:textSize="8pt"
         android:layout_below="@+id/txtSubject"/>
 
-    <ScrollView
-        android:id="@+id/scrollViewDetailContainer"
+    <TextView
+        android:id="@+id/txtDetail"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_below="@id/txtAuthor">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_below="@id/txtAuthor"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        android:text="@string/detail"/>
 
-        <TextView
-            android:id="@+id/txtDetail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textAlignment="center"
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollViewDetailContainer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:layout_below="@id/txtAuthor">-->
 
-            android:text="@string/detail"/>
-    </ScrollView>
+        <!--<TextView-->
+            <!--android:id="@+id/txtDetail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textAlignment="center"-->
+
+            <!--android:text="@string/detail"/>-->
+    <!--</ScrollView>-->
 
     <TextView
         android:id="@+id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/scrollViewDetailContainer"
+        android:layout_below="@+id/txtDetail"
         android:visibility="invisible"
         android:text="Mga naging pangulo ng Republika ng Pilipinas:"
         android:textAlignment="center"
