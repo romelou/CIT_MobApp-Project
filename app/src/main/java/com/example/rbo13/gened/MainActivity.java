@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
                                 "\n" +
                                 "Kasama ni Pangulong Manuel L. Quezon sa Estados Unidos si Sergio Osmena. Namatay si Quezon sa sakit na tuberkulosis noong 1 Agosto 1944 at si Osmeña ang humalili sa kanya. Kasama siya ng mga puwersang Amerikanong lumunsad sa Leyte. Samantala maraming ang magkakasanib ng mga sundalong Pilipino at Amerikano kasama ng mga kumilalang gerilya ay ipagtatanggol ng sagupaan ng pakipaglaban sa mga Hapones ay simula ng kampanya ng labanan ng pagpapalaya sa Pilipinas. Nagsilbi siya bilang pangulo ng bansa hanggang sa magkaroon ng halalan noong 23 Abril 1946. Paghahanda ito sa pagbibigay ng kalayaan ng Estados Unidos. Kumandidato siya bilang pangulo, ngunit natalo kay Manuel Roxas.\n" +
                                 "\n" +
-                                "Mga naging pangulo ng Republika ng Pilipinas (butangan ug pictures sa mga presidents)\n" +
+                                "Mga naging pangulo ng Republika ng Pilipinas: \n" +
                                 "\n" +
                                 "\t•\tEmilio Aguinaldo (1899 - 1901)\n" +
                                 "\t•\tManuel L. Quezon (1935 - 1944)\n" +
