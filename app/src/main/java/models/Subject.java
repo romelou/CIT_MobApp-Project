@@ -6,13 +6,15 @@ public class Subject {
     private String detail;
     private String referenceLink;
     private int image;
+    private boolean hasInfo;
 
-    public Subject(String title, String author, String detail, String referenceLink, int image) {
+    public Subject(String title, String author, String detail, String referenceLink, int image, boolean hasInfo) {
         this.title = title;
         this.author = author;
         this.detail = detail;
         this.referenceLink = referenceLink;
         this.image = image;
+        this.hasInfo = hasInfo;
     }
 
     public String getTitle() {
@@ -53,5 +55,13 @@ public class Subject {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public boolean isHasInfo() {
+        return hasInfo;
+    }
+
+    public void setHasInfo(boolean hasInfo) {
+        this.hasInfo = hasInfo;
     }
 }

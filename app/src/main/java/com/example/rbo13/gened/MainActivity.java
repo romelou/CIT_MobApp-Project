@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
                                 "Growth and expansion have been a constant in American psychology. In the latter part of the 20th century, areas such as social, developmental, and personality psychology made major contributions to our understanding of what it means to be human. Today neuroscience is enjoying tremendous interest and growth.\n" +
                                 "As mentioned at the beginning of the module, it is a challenge to cover all the history of psychology in such a short space. Errors of omission and commission are likely in such a selective review. The history of psychology helps to set a stage upon which the story of psychology can be told. This brief summary provides some glimpse into the depth and rich content offered by the history of psychology. The learning modules in the Noba psychology collection are all elaborations on the foundation created by our shared past. It is hoped that you will be able to see these connections and have a greater understanding and appreciation for both the unity and diversity of the field of psychology.",
                         "",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -62,7 +63,9 @@ public class MainActivity extends AppCompatActivity {
                                 "There are interesting, though subtle, differences between the documents that may be related to the specific character and mission of the organizations that developed the different codes. For example, both SANS and IEEE include a commitment to honesty about the limits of one’s capabilities, as well as a commitment to nondiscrimination. On the other hand, both AITP and IEEE state specific commitments to acknowledging a professional’s responsibility to society. Given IEEE’s stated mission to “foster technological innovation and excellence for the benefit to humanity,” it’s not surprising that its code specifically calls out a commitment to understanding the potential consequences of the application of technology.\n" +
                                 "With regard to the questions initially asked in this article, both the SANS IT code of ethics and AITP’s Standards of Conduct would seem to cover the situations involving email and a user’s laptop. Guidance from SANS indicates that an IT professional “... will not peruse or examine [a coworker’s] information… except as defined by the appointed roles.”",
                         "https://er.educause.edu/articles/2017/3/ethics-and-the-it-professional",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
+
                 )
         );
 
@@ -81,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
                                 "The ideas of presenting data and drawing relevant inferences are central to the successful use of statistical theory. In the end, the statistical analysis should be able to tell us something concrete about the sample that we are studying. A number of errorsare possible in the interpretation of statistical results and a careful analysis needs to be made to prevent these errors.\n" +
                                 "In some rare cases, statistics can be used to draw conclusions that appear to be statistically relevant but on careful examination, are not. When such practices are intentional, they can be hard to detect. One good example of such statistical misconduct is data dredging. Therefore one should also be able to spot the scope and relevance of a statistical study and understand it in the context of the study within which it was intended.",
                         "https://www.stat.uci.edu/what-is-statistics/",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -96,7 +100,8 @@ public class MainActivity extends AppCompatActivity {
                                 "It is generally narrated that somewhere in early November, 1933, on way back from Afghanistan Iqbal told Syed Sulaiman Nadvi that the Sufi referred to in the above statement was no other than his own father. The very fact that the name of the author of the statement “popped up” signifies that the statement must have struck the Syed extraordinary. More notable, however, is the fact that the great Syed accepted Iqbal’s assertion as it was and did not comment on it nor added anything to it - not even later. He did not say, for example: “I am so pleased to know this”. But my dear friend, it is nothing very original, it may as well be found in Ghazali, Rumi, Ibn Arabi, Jili, Mujaddid Alit Thani, or any name like them. It looks rather odd that the Iqbal scholars have quietly agreed to foist such an important and methodologically most significant statement on a Sufi, who never had any pretensions whatsoever in the Sufi-lore nor in the subtle and profound ways of the Sufis.\n" +
                                 "In the conclusion I would like to say that Philosophy of man is highly disciplined endeavour aimed at the discovery of man in the manifestations of his spirit at its peaks as these are embodied in the celebrated texts of the great prophets, the great poets and the great philosophers which texts are to be re-lived anew in every age through an interpretative method as recommended by philosophers like Dithery and Iqbal.",
                         "http://www.allamaiqbal.com/publications/journals/review/apr88/1.htm",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -123,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
                                 "Remarkably, widely different organisms, including bacteria, plants, animals, and fungi, all share the same basic machinery that copies and transcribes DNA into proteins.\n" +
                                 "For example, bacteria with inserted human DNA will correctly yield the corresponding human protein.",
                         "https://www.sciencedaily.com/terms/biology.htm",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -145,7 +151,8 @@ public class MainActivity extends AppCompatActivity {
                                 "\t•\tPlanetary science\n" +
                                 "\t•\tSoil science",
                         "https://en.wikipedia.org/wiki/Earth_science",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -163,7 +170,8 @@ public class MainActivity extends AppCompatActivity {
                                 "\t•\tGenetics\n" +
                                 "\t•\tMedicine",
                         "https://study.com/academy/lesson/what-are-life-sciences.html#/lesson",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -194,27 +202,10 @@ public class MainActivity extends AppCompatActivity {
                                 "Naglunsad ang bansang Hapon ng isang sorpresang pag-atake sa Clark Air Base sa Pampanga noong 8 Disyembre 1941, halos sampung oras lamang matapos ang Pag-atake sa Pearl Harbor. Ang pagbobomba sa pamamagitan ng paggamit ng mga eroplano ay sinundan ng pagdating ng mga sundalong Hapones sa Luzon. Ang hukbo ng mga Pilipino at Amerikanong sundalo ay pinamunuan ni Heneral Douglas MacArthur. Dahil sa pagdami ng mga kalabang dumarating sa bansa, lumikas ang mga hukbong Pilipino at Amerikano sa Bataan at sa pulo ng Corregidor. Ang Maynila, na idineklarang bukas na lungsod/Open City upang maiwasan ang pagkawasak nito, ngunit naging pasaway ang mga hapones at sinalakay pa rin ito ito ay pinasok ng mga Hapones noong 2 Enero 1942. Nagpatuloy ang pagtatanggol ng mga Pilipino hanggang sa pagsuko ng mga sundalong Pilipino at Amerikano sa Bataan noong 9 Abril 1942 at ang Corregidor noong Mayo 6. Karamihan sa 80,000 na mga preso ng digmaan na nahuli ng mga Hapones sa Bataan ay sapilitang pinagmartsa patungo sa isang kulungang may layo ng 105 kilometro sa Hilaga (Pampangga) . Tinatayang 10,000 mga Pilipino, 300 mga Pilipinong Intsik at 1,200 mga Amerikano ang namatay bago makarating sa destinasyon.\n" +
                                 "\n" +
                                 "Kasama ni Pangulong Manuel L. Quezon sa Estados Unidos si Sergio Osmena. Namatay si Quezon sa sakit na tuberkulosis noong 1 Agosto 1944 at si Osmeña ang humalili sa kanya. Kasama siya ng mga puwersang Amerikanong lumunsad sa Leyte. Samantala maraming ang magkakasanib ng mga sundalong Pilipino at Amerikano kasama ng mga kumilalang gerilya ay ipagtatanggol ng sagupaan ng pakipaglaban sa mga Hapones ay simula ng kampanya ng labanan ng pagpapalaya sa Pilipinas. Nagsilbi siya bilang pangulo ng bansa hanggang sa magkaroon ng halalan noong 23 Abril 1946. Paghahanda ito sa pagbibigay ng kalayaan ng Estados Unidos. Kumandidato siya bilang pangulo, ngunit natalo kay Manuel Roxas.\n" +
-                                "\n" +
-                                "Mga naging pangulo ng Republika ng Pilipinas: \n" +
-                                "\n" +
-                                "\t•\tEmilio Aguinaldo (1899 - 1901)\n" +
-                                "\t•\tManuel L. Quezon (1935 - 1944)\n" +
-                                "\t•\tJose P. Laurel (1943 - 1945)\n" +
-                                "\t•\tSergio Osmeña (1944 - 1946)\n" +
-                                "\t•\tManuel Roxas (1946 - 1948)\n" +
-                                "\t•\tElpidio Quirino (1948 - 1953)\n" +
-                                "\t•\tRamon Magsaysay (1953 - 1957)\n" +
-                                "\t•\tCarlos P. Garcia (1957 - 1961)\n" +
-                                "\t•\tDiosdado Macapagal (1961 - 1965)\n" +
-                                "\t•\tFerdinand E. Marcos (1965 - 1986)\n" +
-                                "\t•\tCorazon C. Aquino (1986 - 1992)\n" +
-                                "\t•\tFidel V. Ramos (1992 - 1998)\n" +
-                                "\t•\tJoseph Ejercito Estrada (1998 - 2001)\n" +
-                                "\t•\tGloria Macapagal Arroyo (2001 - 2010)\n" +
-                                "\t•\tBenigno S. Aquino III (2010 - 2016)\n" +
-                                "\t•\tRodrigo R. Duterte (2016 - Kasalukuyan)",
+                                "\n",
                         "https://tl.wikipedia.org/wiki/Kasaysayan_ng_Pilipinas",
-                        R.drawable.book
+                        R.drawable.book,
+                        true
                 )
         );
 
@@ -237,7 +228,8 @@ public class MainActivity extends AppCompatActivity {
                                 "Starting 2018, the government expects to raise funds equivalent to about two-thirds of the incremental revenues targeted under this tax reform law. The Congress has committed to pass the rest of the TRAIN’s provisions representing the remaining one-third of the targeted revenues in early 2018 to help us achieve our revenue and deficit targets.\n" +
                                 "With the people’s support and understanding, all these reforms will result in more and better jobs, lower prices, and a brighter future for every Filipino.",
                         "https://www.dof.gov.ph/index.php/ra-10963-train-law-and-veto-message-of-the-president/",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
                 )
         );
 
@@ -254,7 +246,8 @@ public class MainActivity extends AppCompatActivity {
                                 "Bago dumating ang kanyang katapusan naisulat niya ang “Mi Ultimo Adios” (Ang Huling Paalam) upang magmulat sa mga susunod pang henerasyon na maging makabayan.\n" +
                                 "Noong Disyembre 30, 1896, binaril si Dr. Jose P. Rizal sa Bagumbayan (na ngayon ay Luneta).",
                         "https://www.joserizal.com/talambuhay-ni-dr-jose-rizal/",
-                        R.drawable.jose_rizal
+                        R.drawable.jose_rizal,
+                         false
                 )
         );
 
@@ -274,7 +267,9 @@ public class MainActivity extends AppCompatActivity {
                                 "The oldest documented forms of art are visual arts, which include creation of images or objects in fields including today painting, sculpture, printmaking, photography, and other visual media. Sculptures, cave paintings, rock paintings and petroglyphs from the Upper Paleolithic dating to roughly 40,000 years ago have been found, but the precise meaning of such art is often disputed because so little is known about the cultures that produced them. The oldest art objects in the world—a series of tiny, drilled snail shells about 75,000 years old—were discovered in a South African cave. Containers that may have been used to hold paints have been found dating as far back as 100,000 years. Etched shells by Homo erectus from 430,000 and 540,000 years ago were discovered in 2014.\n" +
                                 "In The Origin of the Work of Art, Martin Heidegger, a German philosopher and a seminal thinker, describes the essence of art in terms of the concepts of being and truth. He argues that art is not only a way of expressing the element of truth in a culture, but the means of creating it and providing a springboard from which \"that which is\" can be revealed. Works of art are not merely representations of the way things are, but actually produce a community's shared understanding. Each time a new artwork is added to any culture, the meaning of what it is to exist is inherently changed.",
                         "https://www.sciencedaily.com/terms/biology.htm",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
+
                 )
         );
 
@@ -301,7 +296,9 @@ public class MainActivity extends AppCompatActivity {
                                 "For the project in our example, the project manager would schedule meetings every week or every two weeks with the project's steering committee to update them on the project status, project budget, and any major issues and risks. For example, if the supplier appointed to supply the tablets suddenly went out of business, this would pose a major risk to the project, and the project manager would need to report this to the steering committee immediately so that they could issue a directive.\n" +
                                 "5) Closing - At the end of each phase of the project, and at the end of the entire project, project closure ensures that all of the project work has been completed, is approved, and that ownership of the project deliverables have been handed over from the project team to operations.",
                         "https://study.com/academy/lesson/what-is-it-project-management-definition-tools-examples.html",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
+
                 )
         );
 
@@ -318,7 +315,9 @@ public class MainActivity extends AppCompatActivity {
                                 "\t•\tUsability: Central to interaction design and operations through specific computer system criteria, including efficiency, safety, utility and learning/retention.\n" +
                                 "\t•\tUser Experience: Focuses on creating systems that are satisfying, enjoyable, entertaining, helpful, motivating, aesthetically pleasing, creativity supportive, rewarding, fun and emotionally fulfilling.",
                         "https://www.sciencedaily.com/terms/biology.htm",
-                        R.drawable.book
+                        R.drawable.book,
+                        false
+
                 )
         );
 

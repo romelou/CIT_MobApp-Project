@@ -56,6 +56,7 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Subjec
                 subjectIntent.putExtra("subjectDetailAuthor", subject.getAuthor());
                 subjectIntent.putExtra("subjectDetail", subject.getDetail());
                 subjectIntent.putExtra("subjectDetailLink", subject.getReferenceLink());
+                subjectIntent.putExtra("hasInfo", subject.isHasInfo());
                 ctx.startActivity(subjectIntent);
             }
         });

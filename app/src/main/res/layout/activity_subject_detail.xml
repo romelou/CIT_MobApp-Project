@@ -6,53 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".ActivitySubjectDetail">
 
-    <TextView
-        android:id="@+id/textViewSubjectDetailTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Subject title"
-        android:textAlignment="center"
-        android:padding="@dimen/fab_margin"
-        android:layout_marginTop="32dp"
-        android:textSize="12pt"/>
-
-    <TextView
-        android:id="@+id/textViewSubjectDetailAuthor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Subject Author"
-        android:textAlignment="center"
-        android:textSize="6pt"
-        android:layout_below="@+id/textViewSubjectDetailTitle"
-        />
-
-    <TextView
-        android:id="@+id/textViewSubjectDetail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Subject Details Here"
-        android:gravity="center"
-        android:verticalScrollbarPosition="right"
-        android:scrollbars="vertical"
-        android:layout_marginTop="32px"
-        android:textSize="8pt"
-        android:layout_below="@+id/textViewSubjectDetailAuthor"
-        android:padding="@dimen/fab_margin"/>
-
     <LinearLayout
+        android:id="@+id/linearRefLinkContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:padding="12px">
+        android:padding="8dp">
 
         <TextView
-            android:id="@+id/textViewSubjectDetailLink"
+            android:id="@+id/txtRefLink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewSubjectDetail"
-            android:autoLink="web"
-            android:layout_marginBottom="12dp"
-            android:text="https://google.com"/>
-
+            android:text="https://google.com"
+            android:autoLink="web"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Subject Name Here"
+        android:textAlignment="center"
+        android:layout_below="@+id/linearRefLinkContainer"/>
+
+    <TextView
+        android:id="@+id/txtAuthor"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:textSize="8pt"
+        android:layout_below="@+id/txtSubject"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtDetail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="@string/detail"/>-->
+
+    <ScrollView
+        android:id="@+id/scrollViewDetailContainer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/txtAuthor">
+
+        <TextView
+            android:id="@+id/txtDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/detail"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollViewDetailContainer"
+        android:visibility="invisible"
+        android:text="Mga naging pangulo ng Republika ng Pilipinas:"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/information"
+        android:visibility="visible" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtPresident"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:drawableLeft="@drawable/ic_launcher_background"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="President"-->
+            <!--android:padding="4dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_below="@+id/txtDetail"/>-->
+
+
+    
 </RelativeLayout>
