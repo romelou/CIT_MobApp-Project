@@ -17,7 +17,7 @@ import models.President;
 //we need to extend the ArrayAdapter class as we are building an adapter
 public class MyListAdapter extends ArrayAdapter<President> {
 
-    //the list values in the List of type hero
+    //the list values in the List of type president
     List<President> presidentList;
 
     //activity context
@@ -52,7 +52,7 @@ public class MyListAdapter extends ArrayAdapter<President> {
         TextView textViewDuration = view.findViewById(R.id.textPresidentDuration);
 
 
-        //getting the hero of the specified position
+        //getting the president of the specified position
         President president = presidentList.get(position);
 
         //adding values to the list item
