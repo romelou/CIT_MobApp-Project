@@ -3,13 +3,9 @@ package com.example.rbo13.gened;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -17,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import models.President;
-import models.Subject;
 
 public class ActivitySubjectDetail extends AppCompatActivity {
 
@@ -64,11 +59,21 @@ public class ActivitySubjectDetail extends AppCompatActivity {
 
             //adding some values to our list
             presidentList.add(new President(R.drawable.aguinaldo, "Emilio Aguinaldo", "(1899 - 1901)"));
-            presidentList.add(new President(R.drawable.quezon, "Emilio Aguinaldo", "(1899 - 1901)"));
-            presidentList.add(new President(R.drawable.laurel, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.quezon, "Manuel L. Quezon", "(1935 - 1944)"));
+            presidentList.add(new President(R.drawable.laurel, "Jose P. Laurel", "(1899 - 1901)"));
             presidentList.add(new President(R.drawable.osmena, "Emilio Aguinaldo", "(1899 - 1901)"));
             presidentList.add(new President(R.drawable.roxas, "Emilio Aguinaldo", "(1899 - 1901)"));
             presidentList.add(new President(R.drawable.quirino, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.magsaysay, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.garcia, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.macapagal, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.marcos, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.aquino, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.ramos, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.estrada, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.arroyo, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.pnoy, "Emilio Aguinaldo", "(1899 - 1901)"));
+            presidentList.add(new President(R.drawable.pduts, "Emilio Aguinaldo", "(1899 - 1901)"));
 
             //creating the adapter
             MyListAdapter adapter = new MyListAdapter(this, R.layout.custom_list, presidentList);
