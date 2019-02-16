@@ -320,6 +320,108 @@ public class MainActivity extends AppCompatActivity {
 
                 )
         );
+        
+        subjectList.add(
+                new Subject(
+                        "Discrete Structures",
+                        "",
+                        "Discrete (as opposed to continuous) mathematics is of direct importance to the fields of Computer Science and\n" +
+                                "Information Technology. This branch of mathematics includes studying areas such as set theory, logic, relations,\n" +
+                                "graph theory, and analysis of algorithms. This course is intended to provide students with an understanding of\n" +
+                                "these areas and their use in the field of Information Technology. \n" +
+                                "The set of objects studied in discrete mathematics can be finite or infinite. The term finite mathematics is\n" +
+                                "sometimes applied to parts of the field of discrete mathematics that deals with finite sets, particularly those areas\n" +
+                                "relevant to business.\n" +
+                                "Research in discrete mathematics increased in the latter half of the twentieth century partly due to the\n" +
+                                "development of digital computers which operate in discrete steps and store data in discrete bits. Concepts and\n" +
+                                "notations from discrete mathematics are useful in studying and describing objects and problems in branches\n" +
+                                "of computer science, such as computer algorithms, programming languages, cryptography, automated theorem\n" +
+                                "proving, and software development. Conversely, computer implementations are significant in applying ideas from\n" +
+                                "discrete mathematics to real-world problems, such as in operations research.\n" +
+                                "\n" +
+                                "Here we cannot afford to cover everything in complete detail, which would have to include, among other things,\n" +
+                                "basic algebra and trigonometry. Furthermore, the vast majority of mathematical works, while considered to be\n" +
+                                "“formal”, gloss over details all the time. For example, you’ll be hard-pressed to find a mathematical paper that\n" +
+                                "goes through the trouble of justifying the equation a 2 − b 2 = (a − b)(a + b). In effect, every mathematical paper or\n" +
+                                "lecture assumes a shared knowledge base with its readers or listeners. It is extremely important for an author of\n" +
+                                "mathematics, such as yourself during this course, to estimate this shared knowledge base correctly",
+                        "https://web.stanford.edu/class/cs103x/cs103x-notes.pdf",
+                        R.drawable.book,
+                        false
+
+                )
+        );
+
+        subjectList.add(
+                new Subject(
+                        "Quantitative Methods",
+                        "",
+                        "Quantitative methods emphasize objective measurements and the statistical, mathematical, or\n" +
+                                "numerical analysis of data collected through polls, questionnaires, and surveys, or by manipulating pre-\n" +
+                                "existing statistical data using computational techniques. Quantitative research focuses on gathering\n" +
+                                "numerical data and generalizing it across groups of people or to explain a particular phenomenon.\n" +
+                                "\n" +
+                                "Your goal in conducting quantitative research study is to determine the relationship between one thing\n" +
+                                "[an independent variable] and another [a dependent or outcome variable] within a population.\n" +
+                                "Quantitative research designs are either descriptive [subjects usually measured once]\n" +
+                                "or experimental [subjects measured before and after a treatment]. A descriptive study establishes only\n" +
+                                "associations between variables; an experimental study establishes causality.\n" +
+                                "Quantitative research deals in numbers, logic, and an objective stance. Quantitative research focuses on\n" +
+                                "numeric and unchanging data and detailed, convergent reasoning rather than divergent reasoning [i.e.,\n" +
+                                "the generation of a variety of ideas about a research problem in a spontaneous, free-flowing manner].\n" +
+                                "Its main characteristics are:\n" +
+                                "1) The data is usually gathered using structured research instruments.\n" +
+                                "2) The results are based on larger sample sizes that are representative of the population.\n" +
+                                "3) The research study can usually be replicated or repeated, given its high reliability.\n" +
+                                "4) Researcher has a clearly defined research question to which objective answers are sought.\n" +
+                                "5) All aspects of the study are carefully designed before data is collected.\n" +
+                                "6) Data are in the form of numbers and statistics, often arranged in tables, charts, figures, or other\n" +
+                                "non-textual forms.\n" +
+                                "7) Project can be used to generalize concepts more widely, predict future results, or investigate\n" +
+                                "causal relationships.\n" +
+                                "8) Researcher uses tools, such as questionnaires or computer software, to collect numerical data.\n" +
+                                "The overarching aim of a quantitative research study is to classify features, count them, and construct\n" +
+                                "statistical models in an attempt to explain what is observed.",
+                        "http://libguides.usc.edu/writingguide/quantitative",
+                        R.drawable.book,
+                        false
+
+                )
+        );
+
+
+        subjectList.add(
+                new Subject(
+                        "IS Strategy",
+                        "",
+                        "An IS/ IT strategy is a planning document that explains how information systems and technology should\n" +
+                                "be utilized as part of an organization\'s overall business strategy and should be designed to support the\n" +
+                                "organization\'s overall business plan.\n" +
+                                "For organisations with a full-time CIO this is something that can be easily created and maintained.\n" +
+                                "However, in SMEs and NfP organisations this can be overlooked, putting the organisation in a dangerous\n" +
+                                "situation unless it can outsource everything to a single vendor.\n" +
+                                "Multi-vendor solutions are desirable in any case and can be inevitable when e-enablement needs to be\n" +
+                                "pervasive.\n" +
+                                "As part of our \"Virtual CIO\" service we work with clients to create and develop their strategies.\n" +
+                                "Generally, this starts with a full discussion of the organisation\'s business plan and a review of existing\n" +
+                                "IS/IT provision.\n" +
+                                "IT strategy (information technology strategy) is a comprehensive plan that outlines how technology\n" +
+                                "should be used to meet IT and business goals. An IT strategy, also called a technology strategy or\n" +
+                                "IT/technology strategic plan, is a written document that details the multiple factors that affect the\n" +
+                                "organization\'s investment in and use of technology.\n" +
+                                "\n" +
+                                "A strong IT strategy provides a blueprint of how technology supports and shapes the organization\'s\n" +
+                                "overall business strategy. Its strategic goals should mirror business projects (aka business alignment) and\n" +
+                                "take into account the needs of key stakeholders including employees, customers and business partners.\n" +
+                                "\n" +
+                                "The strategy should offer a look at the organization\'s current technology posture and provide an idea of\n" +
+                                "where IT should head over the next three to five years.",
+                        "https://searchcio.techtarget.com/definition/IT-strategy-information-technology-strategy",
+                        R.drawable.book,
+                        false
+
+                )
+        );
 
         //creating recyclerview adapter
         SubjectsAdapter adapter = new SubjectsAdapter(this, subjectList);
